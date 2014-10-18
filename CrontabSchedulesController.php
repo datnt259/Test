@@ -4,7 +4,7 @@ class CrontabSchedulesController extends BaseController {
 
 	//send mail background
 	public function getSendMailBackground() {
-
+        1;
 		$start = round(microtime(true) * 1000);
 
 		$data = CrontabSchedules::getDataScheduleEmail();
