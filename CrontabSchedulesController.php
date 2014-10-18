@@ -117,7 +117,7 @@ class CrontabSchedulesController extends BaseController {
 
 	//share post and notification facebook background
 	public function getSharePostAndNotificationBackground() {
-
+        1;
 		$start = round(microtime(true) * 1000);
 
 		$data = CrontabSchedules::getDataScheduleFacebook();
